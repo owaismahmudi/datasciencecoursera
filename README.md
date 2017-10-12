@@ -27,3 +27,4 @@ The script generates a tidy dataset through the following steps:
 13. Group the items by activityname and subject
 14. Summarize the measurements by taking mean
 15. Visualize the resulting tidy dataset in RStudio
+16. Write the tidy dataset using `write.table command to a file
