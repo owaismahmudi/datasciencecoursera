@@ -80,7 +80,7 @@ names(meanstddata) <- columnstidynames
 
 ## Group the items by activityname and subject
 groupedMeanStd <- meanstddata %>% group_by(activityname, subject)
-v <- summarise_all(groupedMeanStd, mean)
+tidydataset <- summarise_all(groupedMeanStd, mean)
 
 ## Visualise the resulting tidy dataset
-View(v)
+View(tidydataset)
