@@ -84,3 +84,6 @@ tidydataset <- summarise_all(groupedMeanStd, mean)
 
 ## Visualise the resulting tidy dataset
 View(tidydataset)
+
+## Write the tidy dataset to a file, 'tidydataset.txt'
+write.table(tidydataset, "tidydataset.txt", row.name=FALSE)
