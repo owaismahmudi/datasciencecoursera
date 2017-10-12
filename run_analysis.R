@@ -11,6 +11,10 @@
 # Here are the data for the project:
 # https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+zippedfile = "file.zip"
+download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", zippedfile)
+unzip(zippedfile)
+file.remove(zippedfile)
 
 ## Read Activity labels
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt", header = FALSE)
