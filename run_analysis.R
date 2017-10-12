@@ -1,5 +1,4 @@
-#library()
-
+## Read Activity labels
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt", header = FALSE)
 
 X_test <- read.table("UCI HAR Dataset/test/X_test.txt", header = FALSE)
