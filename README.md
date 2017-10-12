@@ -12,7 +12,7 @@ The script generates a tidy dataset through the following steps:
 4. Read test dataset excluding the Inertial Signals. 
 	* Read the `X_test.txt` file
 	* Read the `y_test.txt` file
-	* Read the `subject\_test.txt` file
+	* Read the `subject_test.txt` file
 5. Read train dataset excluding the Inertial Signals
 	* Read the `X_train.txt` file
 	* Read the `y_train.txt` file
