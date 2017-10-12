@@ -2,7 +2,7 @@
 
 The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
-The run_analysis.R script was checked and run on RStudio Version 1.0.143 – © 2009-2016 RStudio, Inc. with R version 3.4.0 (2017-04-21).
+The run_analysis.R script was checked and run on Version 1.0.143 – © 2009-2016 RStudio, Inc. with R version 3.4.0 (2017-04-21).
 
 The script generates a tidy dataset through the following steps:
 
